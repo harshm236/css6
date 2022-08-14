@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+    width: auto;
+    height: auto;
+    background-image: url(./shara\ desert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.con1{
+    width: auto;
+    display: flex;
+    justify-content:space-between;
+    
+    
+}
+a{
+    padding-right: 50px;
+    padding-top: 50px;
+    color: white;
+    text-decoration: none;
+}
+.con2{
+    font-size: 28px;
+    display: flex;
+    gap: 100px;
+    
+}
+.sahara{
+    width: 200px;
+    margin-top: 110px;
+    margin-left: 0px;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    line-height: 35px;
+    background-color: beige;
+    
+}
+.but{
+    display: grid;
+    font-size: 23px;
+    width: 250px;
+    height: 70px;
+    
+    background-color: darkgoldenrod;
+    margin-left: 100px;
+    margin-top: 30px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+    border-end-end-radius: 0%;
+    border-start-end-radius: 60%;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius:60% ;
+}
+.but:hover{
+    box-shadow: 5px 5px 5px black;
+}
+.sec2{
+    display:block;
+    width: auto;
+    text-align: center;
+    
+}
+.sec3{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    row-gap: 20px;
+    justify-content: space-around;
+}
+.sec3 div{
+    color: black;
+    border-radius: 10px;
+}
+.sec4{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.sec3 div:hover{
+    transform: translateY(-10px);
+}
+.a1{
+width: 200px;
+height: 250px;
+background-image: url(./pic-1.png);
+background-size: cover;
+box-shadow: 10px 10px 5px black;
+align-content: center;
+align-items:center;
+}
+.a2{
+        color: white;
+    width: 200px;
+    height: 250px;
+    background-image: url(./pic-2.png);
+    background-size: cover;
+    box-shadow: 10px 10px 5px black;
+}    
+.a3{
+        width: 200px;
+        height: 250px;
+        background-image: url(./pic-3.png);
+        background-size: cover;
+        box-shadow: 10px 10px 5px black;
+        }
+ .a4{
+            width: 200px;
+            height: 250px;
+            background-image: url(./pic-4.png);
+            background-size: cover;
+            box-shadow: 10px 10px 5px black;
+            }
+
+    @media (orientation:portrait)
+    {
+        .sec4{
+            width: auto;
+            grid-template-columns: auto;
+            
+        }
+          .sec3{
+            grid-template-columns: auto;           
+        }  
+          .con2{
+            text-align: right;
+            gap: 0px;
+            flex-direction: column-reverse ;
+          }      
+          .con1{
+            align-items: stretch;
+          }  
+          body{
+            background-size: auto;
+            background-repeat: repeat-y;
+          } 
+}
